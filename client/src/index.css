@@ -10,7 +10,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  dispay: flex;
+  dispay: flex !important;
+  width: 100% !important;
 }
 
 a {
