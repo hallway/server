@@ -1,4 +1,7 @@
 :root {
+  display: flex !important;
+  width: 100% !important;
+  
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -9,9 +12,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  dispay: flex !important;
-  width: 100% !important;
 }
 
 a {
