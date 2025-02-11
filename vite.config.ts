@@ -11,7 +11,7 @@ export default defineConfig({
     port: 3000,
   },
   plugins: [
-    react(),
+    react({ tsDecorators: true }),
     deno(),
   ],
   optimizeDeps: {
